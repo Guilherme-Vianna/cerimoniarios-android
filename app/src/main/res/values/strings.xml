@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cerimoniários</string>
+
+    <string name="action_support">Apoiar</string>
+    <string name="action_about">Sobre</string>
+    <string name="navigate_up">Voltar</string>
+
+    <string name="error_title">Sem conexão</string>
+    <string name="error_message">Não foi possível abrir o Cerimoniários. Verifique sua internet e tente de novo.</string>
+    <string name="error_retry">Tentar de novo</string>
+    <string name="error_no_app">Nenhum app neste aparelho consegue abrir este link.</string>
+
+    <string name="donation_statement">10% de toda a receita líquida do app (anúncios e contribuições, já descontadas as taxas do Google) é enviado à Comunidade Santo Antônio, em Jerônimo Monteiro (ES).</string>
+
+    <!-- About -->
+    <string name="about_title">Sobre</string>
+    <string name="about_community_name">Comunidade Santo Antônio</string>
+    <string name="about_community_place">Jerônimo Monteiro · Espírito Santo</string>
+    <string name="about_community_intro">A Comunidade Santo Antônio fica em Jerônimo Monteiro, no sul do Espírito Santo, e é onde nasceu a ideia deste app: ajudar cerimoniários e acólitos a servir ao altar com mais preparo.</string>
+    <!-- TODO before publishing: replace the bracketed texts with real information about the community. -->
+    <string name="about_community_history">[Conte aqui a história da comunidade: quando foi fundada, a qual paróquia pertence e como é a vida da comunidade hoje.]</string>
+    <string name="about_community_details">[Endereço, horários das missas e como falar com a comunidade.]</string>
+    <string name="about_patron_title">Nosso padroeiro</string>
+    <string name="about_patron">Santo Antônio de Pádua (1195–1231), frade franciscano e Doutor da Igreja, é celebrado em 13 de junho.</string>
+    <string name="about_help_title">Como o app ajuda a comunidade</string>
+    <string name="about_help_action">Quero apoiar</string>
+    <string name="about_app_title">Sobre o app</string>
+    <string name="about_app">O Cerimoniários tem provas, flashcards e ranking para quem serve ao altar aprender a liturgia da Missa.</string>
+    <string name="about_version">Versão %1$s</string>
+    <string name="about_privacy">Política de privacidade</string>
+
+    <!-- Support -->
+    <string name="support_title">Apoiar</string>
+    <string name="support_headline">Apoie o app e a Comunidade Santo Antônio</string>
+    <string name="support_intro">O Cerimoniários é gratuito. Contribuindo com qualquer valor, você ajuda a manter o app no ar e remove os anúncios para sempre na sua conta Google.</string>
+    <string name="supporter_thanks_title">Obrigado pelo seu apoio!</string>
+    <string name="supporter_thanks">Você é apoiador do Cerimoniários e não verá mais anúncios. Se quiser, pode contribuir de novo com outro valor.</string>
+    <string name="support_tiers_title">Escolha um valor</string>
+    <string name="support_tiers_hint">O pagamento é feito pela Google Play. Cada valor pode ser escolhido uma vez por conta.</string>
+    <string name="support_tier_buy">Contribuir com %1$s</string>
+    <string name="support_tier_owned">%1$s · contribuição feita</string>
+    <string name="support_tier_pending">%1$s · pagamento pendente</string>
+    <string name="support_unavailable">Não foi possível falar com a Google Play agora. Verifique sua conexão e tente de novo.</string>
+    <string name="support_no_products">Os valores de contribuição ainda não estão disponíveis. Tente de novo mais tarde.</string>
+    <string name="support_thanks_message">Contribuição recebida. Muito obrigado!</string>
+    <string name="support_pending_message">Pagamento pendente. Assim que ele for confirmado, os anúncios somem.</string>
+    <string name="support_error_message">Não foi possível concluir a contribuição. Tente de novo.</string>
+
+    <string name="ads_title">Anúncios</string>
+    <string name="ads_switch">Mostrar anúncios</string>
+    <string name="ads_description">Os anúncios são discretos: ficam só numa faixa pequena no alto da tela e também ajudam a comunidade. Você pode desligá-los quando quiser.</string>
+    <string name="ads_privacy">Privacidade dos anúncios</string>
+</resources>

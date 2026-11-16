@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/canvas"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/app_bar"
+        style="@style/Widget.Cerimoniarios.AppBar">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            style="@style/Widget.Cerimoniarios.Toolbar"
+            app:navigationContentDescription="@string/navigate_up"
+            app:navigationIcon="@drawable/ic_arrow_back"
+            app:title="@string/support_title" />
+    </FrameLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingTop="24dp"
+            android:paddingBottom="32dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:text="@string/support_headline"
+                android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
+                android:textColor="@color/ink" />
+
+            <TextView
+                style="@style/Widget.Cerimoniarios.Paragraph"
+                android:text="@string/support_intro" />
+
+            <com.google.android.material.card.MaterialCardView
+                style="@style/Widget.Cerimoniarios.Card"
+                android:layout_marginTop="0dp"
+                app:cardBackgroundColor="@color/primary_soft">
+
+                <TextView
+                    style="@style/Widget.Cerimoniarios.CardContent"
+                    android:text="@string/donation_statement" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/supporter_card"
+                style="@style/Widget.Cerimoniarios.Card"
+                android:visibility="gone"
+                app:cardBackgroundColor="@color/gold_soft">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/supporter_thanks_title"
+                        android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+                        android:textColor="@color/ink" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/supporter_thanks"
+                        android:textAppearance="@style/TextAppearance.Cerimoniarios.Body" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                style="@style/Widget.Cerimoniarios.SectionTitle"
+                android:layout_marginBottom="4dp"
+                android:text="@string/support_tiers_title" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/support_tiers_hint"
+                android:textAppearance="@style/TextAppearance.Cerimoniarios.Muted" />
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/tiers_progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="16dp"
+                android:indeterminate="true" />
+
+            <TextView
+                android:id="@+id/tiers_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="8dp"
+                android:textAppearance="@style/TextAppearance.Cerimoniarios.Body"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/tiers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:id="@+id/ads_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/Widget.Cerimoniarios.SectionTitle"
+                    android:text="@string/ads_title" />
+
+                <com.google.android.material.materialswitch.MaterialSwitch
+                    android:id="@+id/ads_switch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ads_switch"
+                    android:textAppearance="@style/TextAppearance.Cerimoniarios.Body" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/ads_description"
+                    android:textAppearance="@style/TextAppearance.Cerimoniarios.Muted" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/privacy_button"
+                    style="@style/Widget.Material3.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/ads_privacy"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mirror the tokens in web/src/app/globals.css -->
+    <color name="primary">#7A1F3D</color>
+    <color name="primary_hover">#5F1830</color>
+    <color name="primary_soft">#F8E8EE</color>
+    <color name="gold">#B7862B</color>
+    <color name="gold_soft">#FBF3E2</color>
+    <color name="gold_icon">#F3D48F</color>
+    <color name="canvas">#FAF8F5</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="ink">#1C1917</color>
+    <color name="muted">#6B6560</color>
+    <color name="border">#E7E2DC</color>
+    <color name="white">#FFFFFF</color>
+</resources>
